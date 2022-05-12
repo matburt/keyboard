@@ -4,6 +4,29 @@
     "keyboard": "ferris/0_1",
     "keymap": "matburt",
     "layout": "LAYOUT_split_3x5_2",
+    "macros": [
+        [
+            {"action": "tap", "keycodes": ["LCTL", "X"]},
+            {"action": "delay", "duration": 500},
+            {"action": "tap", "keycodes": ["LCTL", "S"]}
+        ],
+        [
+            {"action": "tap", "keycodes": ["LCTL", "X"]},
+            {"action": "delay", "duration": 500},
+            {"action": "tap", "keycodes": ["B"]}
+        ],
+        [
+            {"action": "tap", "keycodes": ["LCTL", "X"]},
+            {"action": "delay", "duration": 500},
+            {"action": "tap", "keycodes": ["O"]}
+        ],
+        [
+            {"action": "tap", "keycodes": ["LALT", "LCTL", "F"]}
+        ],
+        [
+            {"action": "tap", "keycodes": ["LALT", "LCTL", "B"]}
+        ]
+    ],
     "layers": [
         ["KC_Q"        , "KC_W"        , "KC_E"           , "KC_R"          , "KC_T",
          "KC_Y"        , "KC_U"        , "KC_I"           , "KC_O"          , "KC_P",
@@ -14,8 +37,8 @@
          "KC_Z"        , "LCTL_T(KC_X)", "LALT_T(KC_C)"   , "KC_V"          , "KC_B",
          "KC_N"        , "KC_M"        , "LALT_T(KC_COMM)", "LCTL_T(KC_DOT)", "KC_SLSH",
 
-         "KC_P0"       , "KC_BSPC",
-         "LT(7,KC_SPC)", "KC_P1"
+         "LCTL_T(MACRO_3)"       , "KC_BSPC",
+         "LT(7,KC_SPC)", "RCTL_T(MACRO_4)"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_BTN1"     , "KC_WH_U"        , "KC_BTN2"       , "KC_TRNS",
@@ -26,8 +49,8 @@
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_WH_L"     , "KC_WH_D"        , "KC_WH_R"       , "KC_TRNS",
 
-         "KC_TRNS"     , "KC_TRNS",
-         "KC_TRNS"     , "KC_TRNS"
+         "MACRO_3"     , "KC_TRNS",
+         "KC_TRNS"     , "MACRO_4"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_PGUP"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
@@ -50,8 +73,8 @@
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_MINS"     , "KC_BSLS"        , "KC_GRV"        , "KC_TRNS",
 
-         "RGB_RMOD"    , "KC_TRNS",
-         "KC_TRNS"     , "RGB_MOD"
+         "MACRO_0"    , "KC_TRNS",
+         "KC_TRNS"     , "MACRO_1"
         ],
         ["KC_TRNS"     , "KC_COLN"     , "KC_LT"          , "KC_GT"         , "KC_SCLN",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
