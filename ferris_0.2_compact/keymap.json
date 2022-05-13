@@ -21,10 +21,9 @@
             {"action": "tap", "keycodes": ["O"]}
         ],
         [
-            {"action": "tap", "keycodes": ["LALT", "LCTL", "F"]}
-        ],
-        [
-            {"action": "tap", "keycodes": ["LALT", "LCTL", "B"]}
+            {"action": "tap", "keycodes": ["LCTL", "X"]},
+            {"action": "delay", "duration": 500},
+            {"action": "tap", "keycodes": ["J"]}
         ]
     ],
     "layers": [
@@ -37,8 +36,8 @@
          "KC_Z"        , "LCTL_T(KC_X)", "LALT_T(KC_C)"   , "KC_V"          , "KC_B",
          "KC_N"        , "KC_M"        , "LALT_T(KC_COMM)", "LCTL_T(KC_DOT)", "KC_SLSH",
 
-         "LCTL_T(MACRO_3)"       , "KC_BSPC",
-         "LT(7,KC_SPC)", "RCTL_T(MACRO_4)"
+         "LCTL_T(MACRO_2)"       , "KC_BSPC",
+         "LT(7,KC_SPC)", "RCTL_T(MACRO_3)"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_BTN1"     , "KC_WH_U"        , "KC_BTN2"       , "KC_TRNS",
@@ -49,8 +48,8 @@
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_WH_L"     , "KC_WH_D"        , "KC_WH_R"       , "KC_TRNS",
 
-         "MACRO_3"     , "KC_TRNS",
-         "KC_TRNS"     , "MACRO_4"
+         "LSA(KC_RBRC)"     , "KC_TRNS",
+         "KC_TRNS"     , "LSA(KC_LBRC)"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_PGUP"        , "KC_TRNS"       , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
