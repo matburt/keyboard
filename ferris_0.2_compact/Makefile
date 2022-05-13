@@ -1,5 +1,6 @@
 
 compile: clean
+	mkdir -p ../../../home/vscode/qmk_firmware/keyboards/ferris/keymaps/matburt
 	cp -R * ../../../home/vscode/qmk_firmware/keyboards/ferris/keymaps/matburt/
 	qmk clean
 	qmk compile -kb ferris/0_2/compact -km matburt
