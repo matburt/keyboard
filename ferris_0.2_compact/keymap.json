@@ -108,8 +108,8 @@
          "KC_PAST"     , "KC_4"        , "KC_5"           , "KC_6"          , "KC_PEQL",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_TRNS",
 
-         "KC_TRNS"     , "KC_TRNS",
-         "KC_TRNS"     , "KC_TRNS"
+         "MACRO_2"     , "KC_TRNS",
+         "KC_TRNS"     , "MACRO_3"
         ],
         ["KC_TRNS"     , "KC_TRNS"     , "KC_COLN"        , "KC_ESC"        , "KC_TRNS",
          "KC_TRNS"     , "KC_TRNS"     , "KC_TRNS"        , "KC_TRNS"       , "KC_DEL",
